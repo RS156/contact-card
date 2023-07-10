@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:
+N:Doe;John ;;
+TEL;TYPE=CELL:+123456789
+EMAIL:test@example.com
+ORG:Test Company
+URL:http://example.com
+ADR;TYPE=WORK:;;test;New York;test;123456;United States
+TITLE:test@example.com
+REV:Mon Jul 10 2023 22:12:49 GMT+0530 (India Standard Time)
+END:VCARD
