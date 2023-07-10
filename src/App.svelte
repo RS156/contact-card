@@ -53,7 +53,7 @@
     },
     {
       label: "Email",
-      info: "example@mail.com",
+      info: "exampled@mail.com",
       icon: {
         bgColor: "bg-black",
         iconColor: "text-[#FD7590]",
@@ -74,18 +74,18 @@
 
 <main>
   <div
-    class="px-6 rounded-[20px] m-auto max-w-2xl mt-[180px] bg-gray-900 relative flex flex-col text-center mb-12"
+    class="px-6 rounded-[20px] mx-4 md:mx-auto max-w-md  mt-[180px] bg-gray-900 relative flex flex-col text-center mb-12 pb-4"
   >
     <img
       src={avatar}
       alt=""
-      class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
+      class="w-[200px] absolute left-[50%] transform -translate-x-[50%] h-[200px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
     />
     <div
-      class="mb-6 mx-6 relative text-center bg-gray-900 px-6 rounded-[50px] mt-[150px]"
+      class="mb-4 gap-2 relative text-center bg-gray-900 rounded-[50px] mt-[100px]"
     >
-      <div class="pb-6">
-        <h1 class="text-5xl font-semibold text-white">John Doe</h1>
+      <div class="">
+        <h1 class="text-3xl font-semibold text-white">John Doe</h1>
         <h3
           class="mt-8 inline-block bg-gray-800 text-gray-400 px-6 py-3 rounded-lg text-lg"
         >
@@ -96,17 +96,19 @@
             <Icon {...sIcon} />
           {/each}
         </div>
-        <div class="mt-8 bg-gray-800 px-12 py-6 rounded-lg">
+        <!-- contact area -->
+        <div class="mt-8 bg-gray-800 px-4 py-4 rounded-lg">
           {#each contactLinks as contact, i (contact)}
             <div
               class="flex gap-4 items-center py-4 {i + 1 === contactLinks.length
                 ? ''
                 : 'border-gray-600 border-b'}"
             >
-              <Icon {...contact.icon} />
+            <div class=""><Icon {...contact.icon} /></div>
+              
               <div class="">
                 <p class="text-left text-sm text-gray-400">{contact.label}</p>
-                <p class="text-left text-xl mt-1">{contact.info}</p>
+                <p class="text-left text-base mt-1 break-all">{contact.info}</p>
               </div>
             </div>
           {/each}
