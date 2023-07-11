@@ -1,0 +1,26 @@
+[
+    {
+      "bgColor": "bg-gray-800",
+      "iconColor": "text-[#1773EA]",
+      "iconClass": "fa-brands fa-facebook-f",
+      "siteLink": "https://www.facebook.com/"
+    },
+    {
+      "bgColor": "bg-gray-800",
+      "iconColor": "text-[#1C9CEA]",
+      "iconClass": "fa-brands fa-twitter",
+      "siteLink": "https://www.twitter.com/"
+    },
+    {
+      "bgColor": "bg-gray-800",
+      "iconColor": "text-[#e14a84]",
+      "iconClass": "fa-brands fa-dribbble",
+      "siteLink": "https://dribbble.com/"
+    },
+    {
+      "bgColor": "bg-gray-800",
+      "iconColor": "text-[#0072b1]",
+      "iconClass": "fa-brands fa-linkedin-in",
+      "siteLink": "https://www.linkedin.com/"
+    }
+  ]

@@ -1,0 +1,38 @@
+[
+    {
+      "label": "Phone",
+      "info": "+123 456 789",
+      "icon": {
+        "bgColor": "bg-black",
+        "iconColor": "text-[#E93B81]",
+        "iconClass": "fa-solid fa-mobile-screen-button"
+      }
+    },
+    {
+      "label": "Location",
+      "info": "Hong kong china",
+      "icon": {
+        "bgColor": "bg-black",
+        "iconColor": "text-[#6AB5B9]",
+        "iconClass": "fa-solid fa-location-dot"
+      }
+    },
+    {
+      "label": "Email",
+      "info": "example@mail.com",
+      "icon": {
+        "bgColor": "bg-black",
+        "iconColor": "text-[#FD7590]",
+        "iconClass": "fa-solid fa-envelope"
+      }
+    },
+    {
+      "label": "Birthday",
+      "info": "May 27, 1990",
+      "icon": {
+        "bgColor": "bg-black",
+        "iconColor": "text-[#C17CEB]",
+        "iconClass": "fa-solid fa-calendar-days"
+      }
+    }
+  ]
